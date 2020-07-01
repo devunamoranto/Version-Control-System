@@ -1,0 +1,38 @@
+# Tests adding and removal of files, and simple commands.
+> init
+<<<
+E .gitlet
++ myFile00.txt myFile00.txt
++ myFile01.txt myFile01.txt
++ myFile02.txt myFile02.txt
++ myFile03.txt myFile03.txt
+> add myFile00.txt
+<<<
+> add myFile01.txt
+<<<
+> add myFile02.txt
+<<<
+> add myFile03.txt
+<<<
+> rm myFile02.txt
+<<<
+> rm myFile03.txt
+<<<
+> commit "two"
+<<<
+> find three
+Found no commit with that message.
+<<<
+> status
+=== Branches ===
+\*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+<<<*
+

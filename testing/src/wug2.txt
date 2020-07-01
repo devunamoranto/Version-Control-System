@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+This is the second wug.
+I DIDN"T CHANGE IT LOL
+JK I DID
+im so bored but tbh this project was really rewarding.
+=======
+This is the second wug.
+I CHANGED IT YOU FOOL
+.
+>>>>>>>

@@ -1,0 +1,42 @@
+# Tests switching between branches, and that no errors are thrown when checking out.
+> init
+<<<
+E .gitlet
++ myFile00.txt myFile00.txt
++ myFile01.txt myFile01.txt
++ myFile02.txt myFile02.txt
++ myFile03.txt myFile03.txt
+> branch branch0
+<<<
+> branch branch1
+<<<
+> branch branch2
+<<<
+> branch branch3
+<<<
+> checkout branch0
+<<<
+> add myFile00.txt
+<<<
+> commit "0"
+<<<
+>>> checkout branch1
+<<<
+> add myFile01.txt
+<<<
+> commit "1"
+<<<
+> checkout branch2
+<<<
+> add myFile02.txt
+<<<
+> commit "2"
+<<<
+> checkout branch3
+<<<
+> add myFile03.txt
+<<<
+> commit "3"
+<<<
+> checkout "master"
+<<<

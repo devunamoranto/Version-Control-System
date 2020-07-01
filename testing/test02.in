@@ -1,0 +1,28 @@
+# Tests a variety of errors
+> init
+<<<
+E .gitlet
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+> branch master
+A branch with that name already exists.
+<<<
+> checkout nonExistent
+No such branch exists.
+<<<
+> checkout 690420 -- myFile01.txt
+No commit with that id exists.
+<<<
+> HELLO
+No command with that name exists.
+<<<
+>
+Please enter a command.
+<<<
+> checkout master
+No need to checkout the current branch.
+<<<
+> find HAHAHA
+Found no commit with that message.
+<<<
